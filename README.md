@@ -59,3 +59,16 @@ def get_proxy():
 调度 scheduler.py
 
 examples/example.py是测试文件
+
+## 食用方法
+代理池运行后会在本机的5555端口开放接口
+登录方式为：
+    本机：
+        localhost:5555
+        127.0.0.1:5555
+    同一局域网的异机：
+        xxx.xxx.xxx.xxx:5555 //xxx.xxx.xxx.xxx为本机内网ip地址
+目录分级:
+    '/' 首页
+    '/random' 获取代理接口
+    '/count' 获取数据库剩余代理数量
